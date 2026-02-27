@@ -70,7 +70,7 @@ public class GameSuite
 			};
 			bool Player1Turn = true;
 			int numTurns = 0;
-			while (!CheckVictory() && numTurns != 10) // While Not Victory and the number of turns not being 10 the game will run
+			while (!CheckVictory() && numTurns != 9) // While Not Victory and the number of turns not being 9 the game will run
 			{
 				PrintGrid();
 				if (Player1Turn)
